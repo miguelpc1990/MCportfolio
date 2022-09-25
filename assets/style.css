@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main {
+    background-color: lightslategray;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header a {
+    color: white;
+}
+h1 {
+    color: black;
+    background-color: darkcyan;
+    padding: 10px 10px 10px 80px;
+    display: inline-block;
+    font-size: 50px;
+}
+h2 {
+    display: inline-block;
+    font-size: 50px;
+    text-align: right;
+}
+h3 {
+    display:inline-block;
+    font-size: 12px;
+    color: black;
+}
+p {
+    width: 79%;
+    height: 100%;
+    margin: 2px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+div p {
+    font-size: 12px;
+    padding: 0px;
+    color: black;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+nav a {
+    color: darkcyan;
+}
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+body {
+    background-color: rgba(245, 245, 245, 0.385);
+}
+.about-card {
+    width: 20%;
+    height: 100%;
+    border-right: 7px solid black;
+    padding-right: 10px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    margin: 2px;
+}
+.work-card {
+    width: 20%;
+    height: 100%;
+    border-right: 7px solid black;
+    padding-right: 10px;
+    padding-bottom: 600px;
+    margin: 2px;
+}
+.contact-card {
+    width: 20%;
+    height: 100%;
+    border-right: 7px solid black;
+    padding-right: 10px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    margin: 2px;
+}
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 79%;
+    height: 652px;
+    /*border: 3px solid yellow;*/
+    margin: 2px;
+    padding-left: 25px;
+}
+.project-card {
+    width: 45%;
+    height: 300px;
+    border: 3px solid darkcyan;
+    margin: 15px;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: 100%;
+}
+
+.project-cardTitle {
+    width: 25%;
+    min-height: 40px;
+    border: 3px solid darkcyan ;
+    margin: 0px;
+    margin-top: 200px;
+    background-color: darkcyan;
+    padding: 0px;
+}
+.project-cardTitle div {
+    padding: 10px;
+}
+
+footer {
+    background-color: lightslategray;
+    padding: 0px;
+}
+footer div {
+    padding-top: 15px;
+    margin-right: 35px;
+    float: right;
+    font-family: sans-serif;
+}
+div ul {
+    list-style-type: none;
+    padding-top: 40px;
+    padding-right: 290px;
+}
+div ul li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+    padding-right: 60px;
+}
+footer a {
+    color: black;
+}
+a:hover{
+    text-shadow: 2px 2px 5px darkcyan;
+}
+.project-card:hover {
+    box-shadow: inset 0px 0px 25px darkcyan, 0 0 25px darkcyan;
+}
