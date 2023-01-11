@@ -147,10 +147,17 @@ nav a {
     height: 300px;
     border: 3px solid darkcyan;
     margin: 15px;
-    background-image: url("./images/IMG_4167.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: 100%;
 }
-
+.project-card-one {
+    width: 45%;
+    height: 300px;
+    border: 3px solid darkcyan;
+    margin: 15px;
+    background-image: url("./images/calendar-page.PNG");
+    background-size: 100%;
+}
 .project-cardTitle {
     width: 100px;
     max-height: 75px;
@@ -198,6 +205,9 @@ a:hover {
 }
 
 .project-card:hover {
+    box-shadow: inset 0px 0px 25px darkcyan, 0 0 25px darkcyan;
+}
+.project-card-one:hover {
     box-shadow: inset 0px 0px 25px darkcyan, 0 0 25px darkcyan;
 }
 
